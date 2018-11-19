@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    /*color: rgb(41, 39, 43);*/
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: rgb(157, 194, 153);
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+
+#game {
+    color: rgb(255, 115, 0);
+    background-color: chocolate;
+    z-index: 1;
+    text-align: left;
+}
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.pic {
+    max-height: 2em;
+    float: left;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    margin-top:25px;
+}
